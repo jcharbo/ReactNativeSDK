@@ -116,7 +116,6 @@ RCT_EXPORT_MODULE();
 - (NSDictionary *)constantsToExport
 {
     return @{ @"frontCamera": @(UIImagePickerControllerCameraDeviceFront),
-              @"rearCamera" : @(UIImagePickerControllerCameraDeviceRear),
               @"highQuality" : @(HighestQuality),
               @"mediumQuality" : @(MediumQuality),
               @"lowQuality" : @(LowQuality)
