@@ -402,8 +402,7 @@ public class ZiggeoRecorderModule extends BaseModule {
     @Override
     public Map<String, Object> getConstants() {
         final Map<String, Object> constants = new HashMap<>();
-        constants.put(REAR_CAMERA, CameraView.FACING_BACK);
-        constants.put(FRONT_CAMERA, CameraView.FACING_FRONT);
+       constants.put(FRONT_CAMERA, CameraView.FACING_FRONT);
         constants.put(HIGH_QUALITY, CameraView.QUALITY_HIGH);
         constants.put(MEDIUM_QUALITY, CameraView.QUALITY_MEDIUM);
         constants.put(LOW_QUALITY, CameraView.QUALITY_LOW);
